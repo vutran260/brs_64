@@ -15,4 +15,16 @@ return [
         'reading' => 1,
         'readed' => 2,
     ],
+    'account' => [
+        'admin' => [
+            'email' => 'admin@gmail.com',
+            'name' => 'Admin',
+            'password' => 'admin',
+            'avatar' => 'avatar',
+        ],
+        'user' => [
+            'password' => 'user',
+            'avatar' => 'avatar',
+        ],
+    ],
 ];
