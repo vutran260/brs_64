@@ -15,5 +15,27 @@ return [
 
     'failed' => 'These credentials do not match our records.',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
-
+    'login' => [
+        'name' => 'Login',
+        'title' => 'Login book review system',
+        'signin' => 'Sign in',
+        'remember_me' => 'Remember me',
+        'forgot_your_pass' => 'Forgot your password?',
+        'create_account' => 'Create an account',
+    ],
+    'register' => [
+        'name' => 'Register',
+        'title' => 'Register an account',
+        'signin' => 'Register',
+    ],
+    'forgot_password' => [
+        'title' => 'Forgot your password',
+        'send' => 'Send reset link',
+    ],
+    'reset_password' => [
+        'title' => 'Reset your password',
+        'name' => 'Reset password',
+    ],
+    'logout' => 'Logout',
+    'profile' => 'Profile',
 ];

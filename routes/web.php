@@ -11,6 +11,20 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Auth::routes();
+
+Route::namespace('Auth')->group(function () {
+    Route::get('/logout', 'LoginController@logout');
+});
+
+Route::get('/', 'HomeController@index');
+
+Route::get('/detail/{id}', 'BookController@show');
+
+Route::get('/language/{locale}', 'LanguageController@index');
+
+Route::namespace('Admin')->group(function () {
+    Route::group(['prefix' => '/admin'], function () {
+        Route::get('/', 'HomeController@index');
+    });
 });

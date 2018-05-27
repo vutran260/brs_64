@@ -27,4 +27,7 @@ return [
             'avatar' => 'avatar',
         ],
     ],
+    'locale' => [
+        'default' => 'en',
+    ],
 ];
